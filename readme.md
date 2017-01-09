@@ -3,7 +3,7 @@ NStack Coding Test
 
 The system is intended to simulate receiving and tracking trades in real-time financial markets. A selection of markets execute trades for simple financial instruments (e.g. bonds) in three different currencies: USD, EUR, and GBP. A market will notify us whenever we make a trade, indicating which currency we traded, the size of the trade (quantity), and whether we bought or sold.
 
-We aim to build a simulator that can replay previously saved trade data, in real-time, for each market. These simulators can then be used to test an automated aggregation system system. The aggregator will merge invidual market output into a single multi-market output (i.e. show all trades from all markets), and then aggregate the history of individual trades to produce a running summary of total quantities traded.
+We aim to build a simulator that can replay previously saved trade data, in real-time, for each market. These simulators can then be used to test an automated aggregation system. The aggregator will merge invidual market output into a single multi-market output (i.e. show all trades from all markets), and then aggregate the history of individual trades to produce a running summary of total quantities traded.
 
 We store previous market data in 3 CSV files, `market_a.csv`, `market_b.csv` and `market_c.csv` respectively. The CSV files store a list of trades, in the format:
 
