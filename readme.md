@@ -28,7 +28,7 @@ e.g.
   etc...
   ```
 
-As we buy or sell, our own stock of each instrument goes up or down. For example, if we sell 1000 USD and then sell 2000 more USD, we currently own 3000 USD instruments (we would say we are *long* 3000). If we then sell 2000 USD and then sell 2000 USD more, we are now at -1000 USD. A negative position is entirely valid (we would say we are *short* 1000 - effectively we owe 1000).
+As we buy or sell, our own stock of each instrument goes up or down. For example, if we buy 1000 USD and then buy 2000 more USD, we currently own 3000 USD instruments (we would say we are *long* 3000). If we then sell 2000 USD and then sell 2000 USD more, we are now at -1000 USD. A negative position is entirely valid (we would say we are *short* 1000 - effectively we owe 1000).
 
 The task
 --------
